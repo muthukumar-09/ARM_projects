@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "water_level.o" --strict --scatter "water_level1.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\water_level1.map" -o "water_level1.axf"

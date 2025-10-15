@@ -1,0 +1,325 @@
+Build target 'Target 1'
+assembling Startup.s...
+compiling water_level.c...
+linking...
+Program Size: Code=3440 RO-data=32 RW-data=8 ZI-data=1256  
+"water_level.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling Startup.s...
+compiling water_level.c...
+linking...
+Program Size: Code=3440 RO-data=32 RW-data=8 ZI-data=1256  
+"water_level.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling Startup.s...
+compiling water_level.c...
+linking...
+Program Size: Code=3404 RO-data=32 RW-data=8 ZI-data=1256  
+"water_level.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling Startup.s...
+compiling water_level.c...
+linking...
+Program Size: Code=3404 RO-data=32 RW-data=8 ZI-data=1256  
+"water_level.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling Startup.s...
+compiling water_level.c...
+linking...
+Program Size: Code=3676 RO-data=32 RW-data=8 ZI-data=1256  
+FromELF: creating hex file...
+"water_level1.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling Startup.s...
+compiling water_level.c...
+linking...
+Program Size: Code=3676 RO-data=32 RW-data=8 ZI-data=1256  
+FromELF: creating hex file...
+"water_level1.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling Startup.s...
+compiling water_level.c...
+water_level.c(32): warning:  #223-D: function "uart_init" declared implicitly
+water_level.c:          uart_init();
+water_level.c:          ^
+water_level.c(33): warning:  #223-D: function "motor_init" declared implicitly
+water_level.c:          motor_init();
+water_level.c:          ^
+water_level.c(49): warning:  #223-D: function "motor_on" declared implicitly
+water_level.c:                  motor_on();
+water_level.c:                  ^
+water_level.c(57): error:  #127: expected a statement
+water_level.c:                  else
+water_level.c:                  ^
+water_level.c(61): warning:  #12-D: parsing restarts here after previous syntax error
+water_level.c:                   }
+water_level.c:                   ^
+water_level.c: water_level.c: 4 warnings, 1 error
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling water_level.c...
+water_level.c(32): warning:  #223-D: function "uart_init" declared implicitly
+water_level.c:          uart_init();
+water_level.c:          ^
+water_level.c(33): warning:  #223-D: function "motor_init" declared implicitly
+water_level.c:          motor_init();
+water_level.c:          ^
+water_level.c(49): warning:  #223-D: function "motor_on" declared implicitly
+water_level.c:                  motor_on();
+water_level.c:                  ^
+water_level.c(57): error:  #127: expected a statement
+water_level.c:                  else
+water_level.c:                  ^
+water_level.c(61): warning:  #12-D: parsing restarts here after previous syntax error
+water_level.c:                   }
+water_level.c:                   ^
+water_level.c: water_level.c: 4 warnings, 1 error
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling water_level.c...
+water_level.c(32): warning:  #223-D: function "uart_init" declared implicitly
+water_level.c:          uart_init();
+water_level.c:          ^
+water_level.c(33): warning:  #223-D: function "motor_init" declared implicitly
+water_level.c:          motor_init();
+water_level.c:          ^
+water_level.c(49): warning:  #223-D: function "motor_on" declared implicitly
+water_level.c:                  motor_on();
+water_level.c:                  ^
+water_level.c(60): warning:  #223-D: function "motor_off" declared implicitly
+water_level.c:                  motor_off();
+water_level.c:                  ^
+water_level.c(64): warning:  #111-D: statement is unreachable
+water_level.c:           delay_ms(1000);  // Delay for 50ms between readings to avoid too frequent updates
+water_level.c:           ^
+water_level.c(67): error:  #169: expected a declaration
+water_level.c:   }
+water_level.c:   ^
+water_level.c(108): warning:  #12-D: parsing restarts here after previous syntax error
+water_level.c:       return time;  // Return the distance in cm
+water_level.c:                  ^
+water_level.c(109): error:  #169: expected a declaration
+water_level.c:   }
+water_level.c:   ^
+water_level.c: water_level.c: 6 warnings, 2 errors
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling water_level.c...
+water_level.c(32): warning:  #223-D: function "uart_init" declared implicitly
+water_level.c:          uart_init();
+water_level.c:          ^
+water_level.c(33): warning:  #223-D: function "motor_init" declared implicitly
+water_level.c:          motor_init();
+water_level.c:          ^
+water_level.c(49): warning:  #223-D: function "motor_on" declared implicitly
+water_level.c:                  motor_on();
+water_level.c:                  ^
+water_level.c(60): warning:  #223-D: function "motor_off" declared implicitly
+water_level.c:                  motor_off();
+water_level.c:                  ^
+water_level.c(64): warning:  #111-D: statement is unreachable
+water_level.c:           delay_ms(1000);  // Delay for 50ms between readings to avoid too frequent updates
+water_level.c:           ^
+water_level.c(67): error:  #169: expected a declaration
+water_level.c:   }
+water_level.c:   ^
+water_level.c(108): warning:  #12-D: parsing restarts here after previous syntax error
+water_level.c:       return time;  // Return the distance in cm
+water_level.c:                  ^
+water_level.c(109): error:  #169: expected a declaration
+water_level.c:   }
+water_level.c:   ^
+water_level.c: water_level.c: 6 warnings, 2 errors
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling water_level.c...
+water_level.c(32): warning:  #223-D: function "uart_init" declared implicitly
+water_level.c:          uart_init();
+water_level.c:          ^
+water_level.c(33): warning:  #223-D: function "motor_init" declared implicitly
+water_level.c:          motor_init();
+water_level.c:          ^
+water_level.c(49): warning:  #223-D: function "motor_on" declared implicitly
+water_level.c:                  motor_on();
+water_level.c:                  ^
+water_level.c(59): warning:  #223-D: function "motor_off" declared implicitly
+water_level.c:                  motor_off();
+water_level.c:                  ^
+water_level.c: water_level.c: 4 warnings, 0 errors
+linking...
+water_level1.axf: Error: L6218E: Undefined symbol motor_init (referred from water_level.o).
+water_level1.axf: Error: L6218E: Undefined symbol motor_off (referred from water_level.o).
+water_level1.axf: Error: L6218E: Undefined symbol motor_on (referred from water_level.o).
+water_level1.axf: Error: L6218E: Undefined symbol uart_init (referred from water_level.o).
+water_level1.axf: Not enough information to list image symbols.
+water_level1.axf: Finished: 1 information, 0 warning and 4 error messages.
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling water_level.c...
+water_level.c(32): warning:  #223-D: function "uart_init" declared implicitly
+water_level.c:          uart_init();
+water_level.c:          ^
+water_level.c(33): warning:  #223-D: function "motor_init" declared implicitly
+water_level.c:          motor_init();
+water_level.c:          ^
+water_level.c(49): warning:  #223-D: function "motor_on" declared implicitly
+water_level.c:                  motor_on();
+water_level.c:                  ^
+water_level.c(59): warning:  #223-D: function "motor_off" declared implicitly
+water_level.c:                  motor_off();
+water_level.c:                  ^
+water_level.c: water_level.c: 4 warnings, 0 errors
+linking...
+water_level1.axf: Error: L6218E: Undefined symbol motor_init (referred from water_level.o).
+water_level1.axf: Error: L6218E: Undefined symbol motor_off (referred from water_level.o).
+water_level1.axf: Error: L6218E: Undefined symbol motor_on (referred from water_level.o).
+water_level1.axf: Error: L6218E: Undefined symbol uart_init (referred from water_level.o).
+water_level1.axf: Not enough information to list image symbols.
+water_level1.axf: Finished: 1 information, 0 warning and 4 error messages.
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling water_level.c...
+water_level.c(32): warning:  #223-D: function "uart_init" declared implicitly
+water_level.c:          uart_init();
+water_level.c:          ^
+water_level.c(33): warning:  #223-D: function "motor_init" declared implicitly
+water_level.c:          motor_init();
+water_level.c:          ^
+water_level.c(49): warning:  #223-D: function "motor_on" declared implicitly
+water_level.c:                  motor_on();
+water_level.c:                  ^
+water_level.c(59): warning:  #223-D: function "motor_off" declared implicitly
+water_level.c:                  motor_off();
+water_level.c:                  ^
+water_level.c: water_level.c: 4 warnings, 0 errors
+linking...
+water_level1.axf: Error: L6218E: Undefined symbol motor_init (referred from water_level.o).
+water_level1.axf: Error: L6218E: Undefined symbol motor_off (referred from water_level.o).
+water_level1.axf: Error: L6218E: Undefined symbol motor_on (referred from water_level.o).
+water_level1.axf: Error: L6218E: Undefined symbol uart_init (referred from water_level.o).
+water_level1.axf: Not enough information to list image symbols.
+water_level1.axf: Finished: 1 information, 0 warning and 4 error messages.
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling water_level.c...
+water_level.c(32): warning:  #223-D: function "uart_init" declared implicitly
+water_level.c:          uart_init();
+water_level.c:          ^
+water_level.c(33): warning:  #223-D: function "motor_init" declared implicitly
+water_level.c:          motor_init();
+water_level.c:          ^
+water_level.c(49): warning:  #223-D: function "motor_on" declared implicitly
+water_level.c:                  motor_on();
+water_level.c:                  ^
+water_level.c(59): warning:  #223-D: function "motor_off" declared implicitly
+water_level.c:                  motor_off();
+water_level.c:                  ^
+water_level.c: water_level.c: 4 warnings, 0 errors
+linking...
+water_level1.axf: Error: L6218E: Undefined symbol motor_init (referred from water_level.o).
+water_level1.axf: Error: L6218E: Undefined symbol motor_off (referred from water_level.o).
+water_level1.axf: Error: L6218E: Undefined symbol motor_on (referred from water_level.o).
+water_level1.axf: Error: L6218E: Undefined symbol uart_init (referred from water_level.o).
+water_level1.axf: Not enough information to list image symbols.
+water_level1.axf: Finished: 1 information, 0 warning and 4 error messages.
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling water_level.c...
+uart_header.h(5): error:  #247: function "delay_ms" has already been defined
+uart_header.h:   void delay_ms(int s)
+uart_header.h:        ^
+uart_header.h(67): warning:  #223-D: function "command" declared implicitly
+uart_header.h:   command(0x01);
+uart_header.h:   ^
+uart_header.h: water_level.c: 1 warning, 1 error
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling water_level.c...
+uart_header.h(5): error:  #247: function "delay_ms" has already been defined
+uart_header.h:   void delay_ms(int s)
+uart_header.h:        ^
+uart_header.h(67): warning:  #223-D: function "command" declared implicitly
+uart_header.h:   command(0x01);
+uart_header.h:   ^
+uart_header.h: water_level.c: 1 warning, 1 error
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling water_level.c...
+uart_header.h(57): warning:  #223-D: function "command" declared implicitly
+uart_header.h:   command(0x01);
+uart_header.h:   ^
+uart_header.h: water_level.c: 1 warning, 0 errors
+linking...
+water_level1.axf: Error: L6218E: Undefined symbol command (referred from water_level.o).
+water_level1.axf: Not enough information to list image symbols.
+water_level1.axf: Finished: 1 information, 0 warning and 1 error messages.
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling water_level.c...
+uart_header.h(57): warning:  #223-D: function "command" declared implicitly
+uart_header.h:   command(0x01);
+uart_header.h:   ^
+uart_header.h: water_level.c: 1 warning, 0 errors
+linking...
+water_level1.axf: Error: L6218E: Undefined symbol command (referred from water_level.o).
+water_level1.axf: Not enough information to list image symbols.
+water_level1.axf: Finished: 1 information, 0 warning and 1 error messages.
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling water_level.c...
+uart_header.h(57): warning:  #223-D: function "command" declared implicitly
+uart_header.h:   command(0x01);
+uart_header.h:   ^
+uart_header.h: water_level.c: 1 warning, 0 errors
+linking...
+water_level1.axf: Error: L6218E: Undefined symbol command (referred from water_level.o).
+water_level1.axf: Not enough information to list image symbols.
+water_level1.axf: Finished: 1 information, 0 warning and 1 error messages.
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling water_level.c...
+linking...
+Program Size: Code=4108 RO-data=32 RW-data=8 ZI-data=1256  
+FromELF: creating hex file...
+"water_level1.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling Startup.s...
+compiling water_level.c...
+linking...
+Program Size: Code=4108 RO-data=32 RW-data=8 ZI-data=1256  
+FromELF: creating hex file...
+"water_level1.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling Startup.s...
+compiling water_level.c...
+linking...
+Program Size: Code=4108 RO-data=32 RW-data=8 ZI-data=1256  
+FromELF: creating hex file...
+"water_level1.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling Startup.s...
+compiling water_level.c...
+linking...
+Program Size: Code=4108 RO-data=32 RW-data=8 ZI-data=1256  
+FromELF: creating hex file...
+"water_level1.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling Startup.s...
+compiling water_level.c...
+linking...
+Program Size: Code=4108 RO-data=32 RW-data=8 ZI-data=1256  
+FromELF: creating hex file...
+"water_level1.axf" - 0 Error(s), 0 Warning(s).
